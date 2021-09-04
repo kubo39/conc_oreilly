@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch3_8_5_channel
+ch3_8_5_channel.so
+ch3_8_5_channel.dylib
+ch3_8_5_channel.dll
+ch3_8_5_channel.a
+ch3_8_5_channel.lib
+ch3_8_5_channel-test-*
+*.exe
+*.o
+*.obj
+*.lst

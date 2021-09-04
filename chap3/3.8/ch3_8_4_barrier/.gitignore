@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch3_8_4_barrier
+ch3_8_4_barrier.so
+ch3_8_4_barrier.dylib
+ch3_8_4_barrier.dll
+ch3_8_4_barrier.a
+ch3_8_4_barrier.lib
+ch3_8_4_barrier-test-*
+*.exe
+*.o
+*.obj
+*.lst

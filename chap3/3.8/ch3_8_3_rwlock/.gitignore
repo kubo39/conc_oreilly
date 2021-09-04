@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch3_8_3_rwlock
+ch3_8_3_rwlock.so
+ch3_8_3_rwlock.dylib
+ch3_8_3_rwlock.dll
+ch3_8_3_rwlock.a
+ch3_8_3_rwlock.lib
+ch3_8_3_rwlock-test-*
+*.exe
+*.o
+*.obj
+*.lst

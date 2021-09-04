@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch3_8_1_mutex
+ch3_8_1_mutex.so
+ch3_8_1_mutex.dylib
+ch3_8_1_mutex.dll
+ch3_8_1_mutex.a
+ch3_8_1_mutex.lib
+ch3_8_1_mutex-test-*
+*.exe
+*.o
+*.obj
+*.lst

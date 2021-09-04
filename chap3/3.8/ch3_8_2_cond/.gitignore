@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch3_8_2_cond
+ch3_8_2_cond.so
+ch3_8_2_cond.dylib
+ch3_8_2_cond.dll
+ch3_8_2_cond.a
+ch3_8_2_cond.lib
+ch3_8_2_cond-test-*
+*.exe
+*.o
+*.obj
+*.lst
