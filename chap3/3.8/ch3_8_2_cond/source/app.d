@@ -3,10 +3,10 @@ import core.sync.condition;
 import core.thread;
 import std.stdio;
 
-__gshared Mutex lock;
-__gshared Condition cvar;
+shared Mutex lock;
+shared Condition cvar;
 
-void child(ulong id, ref bool started)
+void child(ulong id, shared ref bool started)
 {
     synchronized (lock)
     {
@@ -18,7 +18,7 @@ void child(ulong id, ref bool started)
     }
 }
 
-void parent(ref bool started)
+void parent(shared ref bool started)
 {
     synchronized (lock)
     {
@@ -30,10 +30,10 @@ void parent(ref bool started)
 
 void main()
 {
-    lock = new Mutex;
-    cvar = new Condition(lock);
+    lock = new shared Mutex;
+    cvar = new shared Condition(lock);
 
-    bool started = false;
+    shared bool started = false;
 
     auto c0 = new Thread(() => child(0, started)).start;
     auto c1 = new Thread(() => child(1, started)).start;
