@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch4_1_philosophers
+ch4_1_philosophers.so
+ch4_1_philosophers.dylib
+ch4_1_philosophers.dll
+ch4_1_philosophers.a
+ch4_1_philosophers.lib
+ch4_1_philosophers-test-*
+*.exe
+*.o
+*.obj
+*.lst
