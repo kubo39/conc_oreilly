@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch4_4_reent_d
+ch4_4_reent_d.so
+ch4_4_reent_d.dylib
+ch4_4_reent_d.dll
+ch4_4_reent_d.a
+ch4_4_reent_d.lib
+ch4_4_reent_d-test-*
+*.exe
+*.o
+*.obj
+*.lst
