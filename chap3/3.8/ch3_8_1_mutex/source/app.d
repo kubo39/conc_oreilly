@@ -2,7 +2,7 @@ import core.sync.mutex : Mutex;
 import core.thread : Thread;
 import std.stdio;
 
-void some_func(Mutex lock, ref ulong val)
+void some_func(shared(Mutex) lock, ref ulong val)
 {
     while (true)
     {
@@ -16,7 +16,7 @@ void some_func(Mutex lock, ref ulong val)
 
 void main()
 {
-    auto lock = new Mutex;
+    auto lock = new shared Mutex;
     auto val = 0UL;
 
     // スレッド生成
