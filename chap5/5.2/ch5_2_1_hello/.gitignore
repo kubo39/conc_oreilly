@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch5_2_1_hello
+ch5_2_1_hello.so
+ch5_2_1_hello.dylib
+ch5_2_1_hello.dll
+ch5_2_1_hello.a
+ch5_2_1_hello.lib
+ch5_2_1_hello-test-*
+*.exe
+*.o
+*.obj
+*.lst
