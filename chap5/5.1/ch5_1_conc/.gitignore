@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch5_1_conc
+ch5_1_conc.so
+ch5_1_conc.dylib
+ch5_1_conc.dll
+ch5_1_conc.a
+ch5_1_conc.lib
+ch5_1_conc-test-*
+*.exe
+*.o
+*.obj
+*.lst
