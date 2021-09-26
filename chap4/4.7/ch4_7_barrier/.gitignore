@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/ch4_7_barrier
+ch4_7_barrier.so
+ch4_7_barrier.dylib
+ch4_7_barrier.dll
+ch4_7_barrier.a
+ch4_7_barrier.lib
+ch4_7_barrier-test-*
+*.exe
+*.o
+*.obj
+*.lst
